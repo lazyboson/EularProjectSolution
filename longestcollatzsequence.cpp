@@ -2,6 +2,15 @@
 #include <iostream>
 #include <vector>
 using  namespace std;
+#include <utility>
+#include <vector>
+
+class CollatzSequence
+{
+	public:
+	long long cnt_collatz_sequence(long long);
+};
+
 
 long long CollatzSequence::cnt_collatz_sequence(long long  x) {
 
